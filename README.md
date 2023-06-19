@@ -40,6 +40,7 @@ import (
 func main() {
 	l := lru.New(2)
 	// 2 is the size of lru (default 2000)
+	
 	l.Set("a", 12)
 	l.Set("b", 13)
 	
@@ -50,6 +51,7 @@ func main() {
 	
 	fmt.Println(l.Get("c"))
 	// hi
+	
 	fmt.Println(l.Get("a"))
 	// nil
 }
