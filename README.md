@@ -12,7 +12,7 @@
 
 # lru
 
-<i>lru</i> is a lightweight package that provides [lru](https://en.wikipedia.org/wiki/Cache_replacement_policies#LRU) cache algorithm in Go.
+<i>lru</i> is a lightweight package that implements [lru](https://en.wikipedia.org/wiki/Cache_replacement_policies#LRU) cache algorithm in Go.
 
 # Documentation
 
